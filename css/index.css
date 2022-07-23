@@ -4,21 +4,21 @@
     margin: 0;
 }
 html {
-    font-size: 16px;
+    font-size: 16px !important;
 }
 body {
-    font-family: 'Roboto', 'sans-serif';
-    color: #fff; 
-    position: relative; 
-    background-color: #000;  
+    font-family: 'Roboto', 'sans-serif' !important;
+    color: #fff !important; 
+    position: relative !important; 
+    background-color: #000 !important;  
 }
 header {
-    position: fixed;
-    z-index: 100000;
-    height: 100px;
-    width: 100%;
-    top: 0;
-    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.75);
+    position: fixed !important;
+    z-index: 100000 !important;
+    height: 100px !important;
+    width: 100% !important;
+    top: 0 !important;
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.75) !important;
 }
 .scroll {
     position: relative;
@@ -57,12 +57,12 @@ header {
     margin-bottom: 5px;
 }
 ul {
-    list-style: none;
+    list-style: none !important;
 }
 
 a {
-    text-decoration: none;
-    color: #fff;
+    text-decoration: none !important;
+    color: #fff !important;
 }
 
 .logo {
@@ -77,18 +77,18 @@ img {
 }
 
 .navBar {
-    background-color: transparent;
+    background-color: transparent !important;
     height: 100px;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.8) !important;
     -webkit-backdrop-filter: blur(7px);
     backdrop-filter: blur(7px);
 }
 
 .navMenu {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
 }
 
 /* 
@@ -105,10 +105,10 @@ img {
     justify-content: space-between;
 }
 .logo a{
-    transition: all 0.3s ease;
+    transition: all 0.3s ease !important;
 }
 .logo a:hover {
-    color: #4CD265;
+    color: #4CD265 !important;
 }
 
 .navLinkHome {
@@ -720,6 +720,84 @@ img {
     transform: scale(0.95);
 }
 
+/* Case Study Page CSS */
+.jumboSection {
+    background-color: #00A5B9;
+    position: relative;
+    top: 100px;
+}
+.jumboHero {
+    background-color: #00A5B9 !important;
+    height: auto !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}
+.jumboContent {
+    height: 400px !important;
+}
+.display-4 {
+    font-family: 'Roboto' 'sans-serif' !important;
+    font-weight: 800 !important;
+    font-size: 2.75rem !important;
+    line-height: auto;
+    text-align: left !important;
+}
+.jumboUnderLine {
+    background-color: #4CD265;
+    height: 5px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.jumboText {
+    padding-top: 91px !important;
+}
+.jumboCopy {
+    font-family: 'Roboto' 'sans-serif' !important;
+    font-weight: 500 !important;
+    font-size: 1.75rem !important;
+}
+.jumboImage {
+    background-image: url('/Images/Cannoli_Website.png') !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    background-position: top !important;
+    z-index: 1 !important;
+}
+.role {
+    margin-top: 150px;
+}
+.overview {
+    margin-top: 50px;
+}
+.overviewCopy{
+    font-family: 'Roboto' 'sans-serif';
+    font-size: 1rem !important;
+    line-height: 1.5rem !important;
+    font-weight: 400 !important;
+    margin-bottom: 25px;
+}
+.timeLine {
+    margin-top: 50px;
+}
+.process {
+    margin-top: 50px;
+    height: 500px !important;
+}
+.processCopy{
+    font-family: 'Roboto' 'sans-serif';
+    font-size: 1rem !important;
+    line-height: 1.5rem !important;
+    font-weight: 400 !important;
+    margin-bottom: 25px;
+}
+.processImage {
+    background-image:url('/Images/DesignThinking_Process_Drk.png') !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    border: 1px solid red;
+}
+
 /* Footer */
 .footerBar {
     background-color: transparent;
@@ -728,6 +806,7 @@ img {
     background-color: rgba(0, 0, 0, 0.8);
     -webkit-backdrop-filter: blur(7px);
     backdrop-filter: blur(7px);
+    margin-top: 100px !important;
 }
 
 .footerMenu {
@@ -961,11 +1040,18 @@ img {
 }
 
 
+
 .container {
     max-width: 73.75rem;
     margin: 0 auto;
     overflow: auto;
     padding: 0 2.5rem;
+}
+.container-fluid {
+    max-width: 73.75rem !important;
+    margin: 0 auto !important;
+    overflow: auto !important;
+    padding: 0 2.5rem !important;
 }
 .flex {
     display: flex;
