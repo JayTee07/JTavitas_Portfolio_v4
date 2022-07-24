@@ -939,7 +939,7 @@ img {
     padding: 0px 0px !important;
 }
 .iaMobile {
-    background-image:url('/Images/cannoli_mobile.png') !important;
+    background-image:url('../Images/cannoli_mobile.png') !important;
     background-size: contain !important;
     background-repeat: no-repeat !important;
     overflow: hidden;
@@ -957,7 +957,7 @@ img {
 }
 .captionCopy{
     font-family: 'Roboto' 'sans-serif';
-    font-size: .9rem !important;
+    font-size: .8rem !important;
     line-height: 1.5rem !important;
     font-weight: 400 !important;
     margin-bottom: 25px;
