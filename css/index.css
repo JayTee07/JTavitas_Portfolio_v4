@@ -758,7 +758,7 @@ img {
     font-size: 1.75rem !important;
 }
 .jumboImage {
-    background-image: url('/Images/Cannoli_Website.png') !important;
+    background-image: url('../Images/Cannoli_Website.png') !important;
     background-repeat: no-repeat !important;
     background-size: contain !important;
     background-position: top !important;
@@ -799,7 +799,7 @@ img {
     margin-top: 25px;
 }
 .processImage {
-    background-image:url('/Images/DesignThinking_Process_Drk.png') !important;
+    background-image:url('../Images/DesignThinking_Process_Drk.png') !important;
     background-size: contain !important;
     background-repeat: no-repeat !important;
     height: 425px;
@@ -823,7 +823,7 @@ img {
     margin-left: 20px;
 }
 .affinityImage {
-    background-image:url('/Images/AffinityDiagram.png') !important;
+    background-image:url('../Images/AffinityDiagram.png') !important;
     background-size: contain !important;
     background-repeat: no-repeat !important;
     height: 450px;
@@ -834,13 +834,13 @@ img {
 }
 
 .userflowImage {
-    background-image:url('/Images/Cannoli_UserFlow.png') !important;
+    background-image:url('../Images/Cannoli_UserFlow.png') !important;
     background-size: contain!important;
     background-repeat: no-repeat !important;
     height: 221px;
 }
 .flowImage {
-    background-image:url('/Images/Cannoli_UserFlow-Iteration.png') !important;
+    background-image:url('../Images/Cannoli_UserFlow-Iteration.png') !important;
     background-size: contain !important;
     background-repeat: no-repeat !important;
     height: 200px;
@@ -849,7 +849,7 @@ img {
     margin-top: 75px;
 }
 .lofi_home {
-    background-image:url('/Images/lofi_cannoli_home.png') !important;
+    background-image:url('../Images/lofi_cannoli_home.png') !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
     overflow: hidden;
@@ -858,7 +858,7 @@ img {
     margin-right: 70px;
 }
 .lofi_nav {
-    background-image:url('/Images/lofi_cannoli_nav.png') !important;
+    background-image:url('../Images/lofi_cannoli_nav.png') !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
     overflow: hidden;
@@ -867,7 +867,7 @@ img {
     margin-right: 70px;
 }
 .lofi_donate {
-    background-image:url('/Images/lofi_cannoli_donate.png') !important;
+    background-image:url('../Images/lofi_cannoli_donate.png') !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
     overflow: hidden;
@@ -878,7 +878,7 @@ img {
     margin-top: 75px;
 }
 .lofi_homeIT {
-    background-image:url('/Images/lofi_cannoli_homeIT.png') !important;
+    background-image:url('../Images/lofi_cannoli_homeIT.png') !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
     overflow: hidden;
@@ -889,7 +889,7 @@ img {
     margin-top: 75px;
 }
 .lofi_navIT {
-    background-image:url('/Images/lofi_cannoli_navIT.png') !important;
+    background-image:url('../Images/lofi_cannoli_navIT.png') !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
     overflow: hidden;
@@ -900,7 +900,7 @@ img {
     margin-top: 75px;
 }
 .lofi_donateB {
-    background-image:url('/Images/lofi_cannoli_donate.png') !important;
+    background-image:url('../Images/lofi_cannoli_donate.png') !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
     overflow: hidden;
@@ -909,7 +909,7 @@ img {
     margin-right: 70px;
 }
 .lofi_donateIT {
-    background-image:url('/Images/lofi_cannoli_donateIT.png') !important;
+    background-image:url('../Images/lofi_cannoli_donateIT.png') !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
     overflow: hidden;
@@ -920,7 +920,7 @@ img {
     margin-top: 75px;
 }
 .styleTile_Image {
-    background-image:url('/Images/cannoli_styletile.png') !important;
+    background-image:url('../Images/cannoli_styletile.png') !important;
     background-size: contain !important;
     background-repeat: no-repeat !important;
     overflow: hidden;
@@ -931,7 +931,7 @@ img {
     margin-top: 75px;
 }
 .iaDesktop {
-    background-image:url('/Images/cannoli_desktop.png') !important;
+    background-image:url('../Images/cannoli_desktop.png') !important;
     background-size: contain !important;
     background-repeat: no-repeat !important;
     overflow: hidden;
