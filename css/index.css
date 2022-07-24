@@ -768,7 +768,7 @@ img {
     margin-top: 150px;
 }
 .overview {
-    margin-top: 50px;
+    margin-top: 25px;
 }
 .overviewCopy{
     font-family: 'Roboto' 'sans-serif';
@@ -778,11 +778,10 @@ img {
     margin-bottom: 25px;
 }
 .timeLine {
-    margin-top: 50px;
+    margin-top: 25px;
 }
 .process {
-    margin-top: 50px;
-    height: 500px !important;
+    margin-top: 25px;
 }
 .processCopy{
     font-family: 'Roboto' 'sans-serif';
@@ -791,11 +790,190 @@ img {
     font-weight: 400 !important;
     margin-bottom: 25px;
 }
+.processCopyB{
+    font-family: 'Roboto' 'sans-serif';
+    font-size: 1rem !important;
+    line-height: 1.5rem !important;
+    font-weight: 400 !important;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
 .processImage {
     background-image:url('/Images/DesignThinking_Process_Drk.png') !important;
     background-size: contain !important;
     background-repeat: no-repeat !important;
-    border: 1px solid red;
+    height: 425px;
+}
+.stake {
+    margin-top: 75px;
+}
+.stakeBoxCopy {
+    border-radius: 7px;
+    margin: 0 10px;
+    padding: 20px 00px;
+    text-align: center;
+    border: 3px solid #00A5B9;
+    font-family: 'roboto' 'sans-serif';
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+.takeAways li {
+    list-style: disc;
+    line-height: 32px;
+    margin-left: 20px;
+}
+.affinityImage {
+    background-image:url('/Images/AffinityDiagram.png') !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    height: 450px;
+}
+.userflow {
+    margin-top: 50px;
+    
+}
+
+.userflowImage {
+    background-image:url('/Images/Cannoli_UserFlow.png') !important;
+    background-size: contain!important;
+    background-repeat: no-repeat !important;
+    height: 221px;
+}
+.flowImage {
+    background-image:url('/Images/Cannoli_UserFlow-Iteration.png') !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    height: 200px;
+}
+.lofi_wire {
+    margin-top: 75px;
+}
+.lofi_home {
+    background-image:url('/Images/lofi_cannoli_home.png') !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    overflow: hidden;
+    height: 812px;
+    padding: 0px 0px !important;
+    margin-right: 70px;
+}
+.lofi_nav {
+    background-image:url('/Images/lofi_cannoli_nav.png') !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    overflow: hidden;
+    height: 812px;
+    padding: 0px 0px !important;
+    margin-right: 70px;
+}
+.lofi_donate {
+    background-image:url('/Images/lofi_cannoli_donate.png') !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    overflow: hidden;
+    height: 812px;
+    padding: 0px 0px !important;
+}
+.lofi_home_it {
+    margin-top: 75px;
+}
+.lofi_homeIT {
+    background-image:url('/Images/lofi_cannoli_homeIT.png') !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    overflow: hidden;
+    height: 812px;
+    padding: 0px 0px !important;
+}
+.lofi_nav_it {
+    margin-top: 75px;
+}
+.lofi_navIT {
+    background-image:url('/Images/lofi_cannoli_navIT.png') !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    overflow: hidden;
+    height: 812px;
+    padding: 0px 0px !important;
+}
+.lofi_donate_it {
+    margin-top: 75px;
+}
+.lofi_donateB {
+    background-image:url('/Images/lofi_cannoli_donate.png') !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    overflow: hidden;
+    height: 812px;
+    padding: 0px 0px !important;
+    margin-right: 70px;
+}
+.lofi_donateIT {
+    background-image:url('/Images/lofi_cannoli_donateIT.png') !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    overflow: hidden;
+    height: 812px;
+    padding: 0px 0px !important;
+}
+.styleTile {
+    margin-top: 75px;
+}
+.styleTile_Image {
+    background-image:url('/Images/cannoli_styletile.png') !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    overflow: hidden;
+    height: 620px;
+    padding: 0px 0px !important;
+}
+.interactive {
+    margin-top: 75px;
+}
+.iaDesktop {
+    background-image:url('/Images/cannoli_desktop.png') !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    overflow: hidden;
+    height: 500px;
+    padding: 0px 0px !important;
+}
+.iaMobile {
+    background-image:url('/Images/cannoli_mobile.png') !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    overflow: hidden;
+    height: 367px;
+    padding: 0px 0px !important;
+}
+.results {
+    margin-top: 75px;
+}
+.secTitle {
+    font-family: 'Roboto' 'sans-serif';
+    font-size: 2rem;
+    font-weight: 700;
+    color: #00A5B9;
+}
+.captionCopy{
+    font-family: 'Roboto' 'sans-serif';
+    font-size: .9rem !important;
+    line-height: 1.5rem !important;
+    font-weight: 400 !important;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    transition: all .5s ease-in;
+}
+.captionCopy a:hover {
+    color: #4CD265 !important;
+}
+
+.keys {
+    margin-top: 50px;
+}
+
+.rounded {
+    border-radius: 10px !important;
 }
 
 /* Footer */
@@ -1052,6 +1230,10 @@ img {
     margin: 0 auto !important;
     overflow: auto !important;
     padding: 0 2.5rem !important;
+}
+.col-12 {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
 }
 .flex {
     display: flex;
