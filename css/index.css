@@ -633,6 +633,10 @@ img {
     align-items: center;
     justify-content: flex-start;
 }
+form input, form textarea {
+    outline: none;
+    border: 0;
+}
 .topInputs {
     width: 580px;
     height: 36px;
