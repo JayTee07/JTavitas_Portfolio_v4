@@ -912,29 +912,29 @@ img {
 .lofi_home_it {
     margin-top: 75px;
 }
-.lofi_homeIT {
+/*.lofi_homeIT {
     background-image:url('../Images/lofi_cannoli_homeIT.png') !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
     overflow: hidden;
     height: 812px;
     padding: 0px 0px !important;
-}
+}*/
 .lofi_nav_it {
     margin-top: 75px;
 }
-.lofi_navIT {
+/*.lofi_navIT {
     background-image:url('../Images/lofi_cannoli_navIT.png') !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
     overflow: hidden;
     height: 812px;
     padding: 0px 0px !important;
-}
+}*/
 .lofi_donate_it {
     margin-top: 75px;
 }
-.lofi_donateB {
+/*.lofi_donateB {
     background-image:url('../Images/lofi_cannoli_donate.png') !important;
     background-size: cover !important;
     background-repeat: no-repeat !important;
@@ -950,7 +950,7 @@ img {
     overflow: hidden;
     height: 812px;
     padding: 0px 0px !important;
-}
+}*/
 .styleTile {
     margin-top: 75px;
 }
