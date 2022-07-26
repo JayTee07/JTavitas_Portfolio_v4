@@ -749,21 +749,25 @@ img {
     margin-top: 10px;
     margin-bottom: 25px;
 }
-.jumboText {
+/*.jumboText {
     padding-top: 91px !important;
-}
+}*/
 .jumboCopy {
     font-family: 'Roboto' 'sans-serif' !important;
     font-weight: 500 !important;
     font-size: 1.75rem !important;
 }
-.jumboImage {
+/*.jumboImage {
     background-image: url('../Images/Cannoli_Website.png') !important;
     background-repeat: no-repeat !important;
     background-size: contain !important;
     background-position: top !important;
     z-index: 1 !important;
-}
+    max-width: 100% !important;
+    height: auto !important;
+    margin: 0px !important;
+    padding: 0px !important;
+}*/
 .role {
     margin-top: 150px;
 }
@@ -798,42 +802,45 @@ img {
     margin-bottom: 25px;
     margin-top: 25px;
 }
-.processImage {
+/*.processImage {
     background-image:url('../Images/DesignThinking_Process_Drk.png') !important;
     background-size: contain !important;
     background-repeat: no-repeat !important;
     height: 425px;
-}
+}*/
 .stake {
     margin-top: 75px;
 }
 .stakeBoxCopy {
     border-radius: 7px;
-    margin: 0 10px;
-    padding: 20px 00px;
+    padding: 20px 0px;
     text-align: center;
     border: 3px solid #00A5B9;
     font-family: 'roboto' 'sans-serif';
     font-size: 1.25rem;
     font-weight: 700;
 }
+.stakeBox .col-md-12{
+    margin: 15px 0px !important;
+}
 .takeAways li {
     list-style: disc;
-    line-height: 32px;
+    line-height: 1.5rem;
     margin-left: 20px;
+    margin-bottom: 15px;
 }
-.affinityImage {
+/*.affinityImage {
     background-image:url('../Images/AffinityDiagram.png') !important;
     background-size: contain !important;
     background-repeat: no-repeat !important;
     height: 450px;
-}
+}*/
 .userflow {
     margin-top: 50px;
     
 }
 
-.userflowImage {
+/*.userflowImage {
     background-image:url('../Images/Cannoli_UserFlow.png') !important;
     background-size: contain!important;
     background-repeat: no-repeat !important;
@@ -844,36 +851,71 @@ img {
     background-size: contain !important;
     background-repeat: no-repeat !important;
     height: 200px;
+}*/
+.lofiScreens .col-lg-4 {
+    height: 812px !important;
 }
+.lofiScreens .row {
+    max-width: 100% !important;
+}
+.lofi_home {
+    border-radius: 20px;
+    margin: 0px 0px !important;
+    padding: 0px 0px !important;
+    background-image: url(/Images/lofi_cannoli_home.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 280px !important;
+}
+.lofi_nav {
+    border-radius: 20px;
+    margin: 0px 0px !important;
+    padding: 0px 0px !important;
+    background-image: url(/Images/lofi_cannoli_nav.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 280px !important;
+}
+.lofi_donate {
+    border-radius: 20px;
+    margin: 0px 0px !important;
+    padding: 0px 0px !important;
+    background-image: url(/Images/lofi_cannoli_donate.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 280px !important;
+}
+
+
 .lofi_wire {
     margin-top: 75px;
 }
-.lofi_home {
+/*.lofi_home {
     background-image:url('../Images/lofi_cannoli_home.png') !important;
-    background-size: cover !important;
+    background-size: contain !important;
     background-repeat: no-repeat !important;
     overflow: hidden;
-    height: 812px;
+    height: 300px;
     padding: 0px 0px !important;
     margin-right: 70px;
-}
-.lofi_nav {
+}*/
+/*.lofi_nav {
     background-image:url('../Images/lofi_cannoli_nav.png') !important;
-    background-size: cover !important;
+    background-size: contain !important;
     background-repeat: no-repeat !important;
     overflow: hidden;
-    height: 812px;
+    height: 300px;
     padding: 0px 0px !important;
     margin-right: 70px;
 }
 .lofi_donate {
     background-image:url('../Images/lofi_cannoli_donate.png') !important;
-    background-size: cover !important;
+    background-size: contain !important;
     background-repeat: no-repeat !important;
     overflow: hidden;
-    height: 812px;
+    height: 300px;
     padding: 0px 0px !important;
-}
+}*/
 .lofi_home_it {
     margin-top: 75px;
 }
@@ -930,7 +972,7 @@ img {
 .interactive {
     margin-top: 75px;
 }
-.iaDesktop {
+/*.iaDesktop {
     background-image:url('../Images/cannoli_desktop.png') !important;
     background-size: contain !important;
     background-repeat: no-repeat !important;
@@ -945,6 +987,11 @@ img {
     overflow: hidden;
     height: 367px;
     padding: 0px 0px !important;
+}*/
+@media (max-width: 767px) {
+    .hide {
+        display: none !important;
+    }
 }
 .results {
     margin-top: 75px;
@@ -958,10 +1005,9 @@ img {
 .captionCopy{
     font-family: 'Roboto' 'sans-serif';
     font-size: .8rem !important;
-    line-height: 1.5rem !important;
     font-weight: 400 !important;
-    margin-bottom: 25px;
-    margin-top: 15px;
+    margin-bottom: 40px;
+    margin-top: 25px;
     transition: all .5s ease-in;
 }
 .captionCopy a:hover {
@@ -972,9 +1018,6 @@ img {
     margin-top: 50px;
 }
 
-.rounded {
-    border-radius: 10px !important;
-}
 
 /* Footer */
 .footerBar {
