@@ -852,7 +852,7 @@ img {
     background-repeat: no-repeat !important;
     height: 200px;
 }*/
-.lofiScreens .col-lg-4 {
+/*.lofiScreens .col-lg-4 {
     height: 812px !important;
 }
 .lofiScreens .row {
@@ -884,38 +884,31 @@ img {
     background-size: cover;
     background-repeat: no-repeat;
     max-width: 280px !important;
+}*/
+.lofi_scroll {
+    width: 100% !important;
+    height: 40rem !important;
+    overflow: scroll;
+    cursor: grabbing;
+    border-radius: 20px;
 }
-
-
+.lofi_scroll img {
+    vertical-align: bottom !important;
+}
+.row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+.col-lg-12, .col-lg-10, .col-lg-9, .col-lg-4, .col-lg-3, .col-lg-2,
+.col-md-12, .col-md-10, .col-md-9, .col-md-4, .col-md-3, .col-md-2,
+.col-sm-12, .col-sm-10, .col-sm-9, .col-sm-4, .col-sm-3, .col-sm-2 {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
 .lofi_wire {
     margin-top: 75px;
 }
-/*.lofi_home {
-    background-image:url('../Images/lofi_cannoli_home.png') !important;
-    background-size: contain !important;
-    background-repeat: no-repeat !important;
-    overflow: hidden;
-    height: 300px;
-    padding: 0px 0px !important;
-    margin-right: 70px;
-}*/
-/*.lofi_nav {
-    background-image:url('../Images/lofi_cannoli_nav.png') !important;
-    background-size: contain !important;
-    background-repeat: no-repeat !important;
-    overflow: hidden;
-    height: 300px;
-    padding: 0px 0px !important;
-    margin-right: 70px;
-}
-.lofi_donate {
-    background-image:url('../Images/lofi_cannoli_donate.png') !important;
-    background-size: contain !important;
-    background-repeat: no-repeat !important;
-    overflow: hidden;
-    height: 300px;
-    padding: 0px 0px !important;
-}*/
+
 .lofi_home_it {
     margin-top: 75px;
 }
