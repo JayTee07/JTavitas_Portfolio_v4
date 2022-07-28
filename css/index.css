@@ -893,7 +893,7 @@ form input, form textarea {
     width: 100% !important;
     height: 40rem !important;
     overflow: scroll;
-    cursor: grabbing;
+    cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='64' height='64' viewBox='0 0 64 64' enable-background='new 0 0 64 64' xml:space='preserve'%3E%3Cg id='circle'%3E%3Ccircle fill='%2300A5B9' cx='32' cy='32' r='32' opacity='0.8'/%3E%3C/g%3E%3Cpath id='down-arrow' display='none' fill='%23FFFFFF' d='M47.8,37.8L35,50.6c-1.2,1.2-2.4,1.4-3,1.4c-0.6,0-1.8-0.2-2.8-1.2l-13-13 c-1.6-1.6-1.6-4,0-5.6s4-1.6,5.6,0l6.2,6.2V16c0-2.2,1.8-4,4-4s4,1.8,4,4v22.4l6.2-6.2c1.6-1.6,4-1.6,5.6,0 C49.4,33.8,49.4,36.2,47.8,37.8z'/%3E%3Cpath fill='%23FFFFFF' d='M41.265,40.491C41.757,40.975,42,41.616,42,42.256c0,0.641-0.244,1.28-0.732,1.767l-7.5,7.5 c-0.977,0.977-2.558,0.977-3.535,0l-7.5-7.5c-0.977-0.977-0.977-2.558,0-3.535s2.558-0.977,3.535,0l3.232,3.237V20.796l-3.232,3.226 c-0.977,0.977-2.558,0.977-3.535,0s-0.977-2.558,0-3.535l7.5-7.5c0.977-0.977,2.558-0.977,3.535,0l7.5,7.5 C41.757,20.976,42,21.616,42,22.257c0,0.641-0.244,1.28-0.732,1.767c-0.977,0.977-2.558,0.977-3.535,0L34.5,20.796v22.929 l3.233-3.233C38.711,39.514,40.289,39.514,41.265,40.491z'/%3E%3C/svg%3E") 32 32, ns-resize;
     border-radius: 20px;
 }
 .lofi_scroll img {
