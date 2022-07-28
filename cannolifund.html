@@ -202,12 +202,18 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-lg-12 col-md-12 col-sm-12 affinityImage img-fluid">
-                    <img src="./Images/AffinityDiagram.png">
+                    <img id="affinityImg" src="./Images/AffinityDiagram.png" alt="Affinity Diagram">
                 </div>
             </div>
             <div class="row col-lg-9 col-md-12 col-sm-12 justify-content-start">
                 <figcaption class="figure-caption ml-3 mt-2">Affinity Diagram</figcaption>
             </div>
+        </div>
+
+        <div id="affinityModal" class="imgModal">
+            <span class="adclose"><i class="fa-solid fa-xmark"></i></span>
+            <img id="affImg" src="" alt="" class="modalImg">
+            <div id="imgCap"></div>
         </div>
     </section>
 
@@ -225,7 +231,7 @@
             </div>
             <div class="row justify-content-start">
                 <div class="col-lg-12 col-md-12 col-sm-12 userflowImage img-fluid">
-                    <img src="./Images/Cannoli_UserFlow.png">
+                    <img id="ufImg" src="./Images/Cannoli_UserFlow.png" alt="Initial User Flow Design">
                 </div>
             </div>
             <div class="row col-lg-9 col-md-12 col-sm-12 justify-content-start">
@@ -238,13 +244,26 @@
             </div>
             <div class="row justify-content-start">
                 <div class="col-lg-12 col-md-12 col-sm-12 flowImage img-fluid">
-                    <img src="./Images/Cannoli_UserFlow-Iteration.png" alt="">
+                    <img id="IufImg" src="./Images/Cannoli_UserFlow-Iteration.png" alt="Iterated User Flow Design">
                 </div>
             </div>
             <div class="row col-lg-9 col-md-12 col-sm-12 justify-content-start">
                 <figcaption class="figure-caption ml-2 mt-3">Iterated user flow design</figcaption>
             </div>
         </div>
+        
+        <div id="uflowModal" class="ufimgModal">
+            <span class="ufclose"><i class="fa-solid fa-xmark"></i></span>
+            <img id="uflowImg" src="" alt="" class="ufmodalImg">
+            <div id="ufimgCap"></div>
+        </div>
+
+        <div id="IuflowModal" class="IufimgModal">
+            <span class="Iufclose"><i class="fa-solid fa-xmark"></i></span>
+            <img id="IuflowImg" src="" alt="" class="IufmodalImg">
+            <div id="IufimgCap"></div>
+        </div>
+
     </section>
 
     <section class="lofi_wire">

@@ -753,25 +753,13 @@ form input, form textarea {
     margin-top: 10px;
     margin-bottom: 25px;
 }
-/*.jumboText {
-    padding-top: 91px !important;
-}*/
+
 .jumboCopy {
     font-family: 'Roboto' 'sans-serif' !important;
     font-weight: 500 !important;
     font-size: 1.75rem !important;
 }
-/*.jumboImage {
-    background-image: url('../Images/Cannoli_Website.png') !important;
-    background-repeat: no-repeat !important;
-    background-size: contain !important;
-    background-position: top !important;
-    z-index: 1 !important;
-    max-width: 100% !important;
-    height: auto !important;
-    margin: 0px !important;
-    padding: 0px !important;
-}*/
+
 .role {
     margin-top: 150px;
 }
@@ -806,12 +794,7 @@ form input, form textarea {
     margin-bottom: 25px;
     margin-top: 25px;
 }
-/*.processImage {
-    background-image:url('../Images/DesignThinking_Process_Drk.png') !important;
-    background-size: contain !important;
-    background-repeat: no-repeat !important;
-    height: 425px;
-}*/
+
 .stake {
     margin-top: 75px;
 }
@@ -833,62 +816,208 @@ form input, form textarea {
     margin-left: 20px;
     margin-bottom: 15px;
 }
-/*.affinityImage {
-    background-image:url('../Images/AffinityDiagram.png') !important;
-    background-size: contain !important;
-    background-repeat: no-repeat !important;
-    height: 450px;
-}*/
+
+#affinityImg {
+    cursor: pointer;
+    transition: 0.3s;
+}
+#affinityImg:hover {
+    transform: scale(0.98);
+}
+.imgModal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 190px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.85);
+}
+.modalImg {
+    margin: auto;
+    display: block;
+    max-width: 100%;
+}
+#imgCap {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+.imgModal, #imgCap {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform: scale(1);}
+}
+.adclose {
+    position: absolute;
+    top: 110px;
+    right: 35px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    z-index: 1;
+}
+.adclose:hover,
+.adclose:focus {
+  color: #ffffff;
+  text-decoration: none;
+  cursor: pointer;
+}
+@media only screen and (max-width: 700px){
+    .modalImg {
+      width: 100%;
+    }
+}
+
+#ufImg {
+    cursor: pointer;
+    transition: 0.3s;
+}
+#ufImg:hover {
+    transform: scale(0.98);
+}
+.ufimgModal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 200px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.85);
+}
+.ufmodalImg {
+    margin: auto;
+    display: block;
+    max-width: 100%;
+}
+#ufimgCap {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+.ufimgModal, #ufimgCap {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform: scale(1);}
+}
+.ufclose {
+    position: absolute;
+    top: 120px;
+    right: 35px;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    z-index: 1;
+}
+.ufclose:hover,
+.ufclose:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+@media only screen and (max-width: 700px){
+    .ufmodalImg {
+      width: 100%;
+    }
+}
+
+#IufImg {
+    cursor: pointer;
+    transition: 0.3s;
+}
+#IufImg:hover {
+    transform: scale(0.98);
+}
+.IufimgModal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 200px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.85);
+}
+.IufmodalImg {
+    margin: auto;
+    display: block;
+    max-width: 100%;
+}
+#IufimgCap {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+.IufimgModal, #ufimgCap {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+@keyframes zoom {
+    from {transform:scale(0)}
+    to {transform: scale(1);}
+}
+.Iufclose {
+    position: absolute;
+    top: 120px;
+    right: 35px;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+    z-index: 1;
+}
+.Iufclose:hover,
+.Iufclose:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+@media only screen and (max-width: 700px){
+    .IufmodalImg {
+      width: 100%;
+    }
+}
+
+
 .userflow {
     margin-top: 50px;
     
 }
 
-/*.userflowImage {
-    background-image:url('../Images/Cannoli_UserFlow.png') !important;
-    background-size: contain!important;
-    background-repeat: no-repeat !important;
-    height: 221px;
-}
-.flowImage {
-    background-image:url('../Images/Cannoli_UserFlow-Iteration.png') !important;
-    background-size: contain !important;
-    background-repeat: no-repeat !important;
-    height: 200px;
-}*/
-/*.lofiScreens .col-lg-4 {
-    height: 812px !important;
-}
-.lofiScreens .row {
-    max-width: 100% !important;
-}
-.lofi_home {
-    border-radius: 20px;
-    margin: 0px 0px !important;
-    padding: 0px 0px !important;
-    background-image: url(/Images/lofi_cannoli_home.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    max-width: 280px !important;
-}
-.lofi_nav {
-    border-radius: 20px;
-    margin: 0px 0px !important;
-    padding: 0px 0px !important;
-    background-image: url(/Images/lofi_cannoli_nav.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    max-width: 280px !important;
-}
-.lofi_donate {
-    border-radius: 20px;
-    margin: 0px 0px !important;
-    padding: 0px 0px !important;
-    background-image: url(/Images/lofi_cannoli_donate.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    max-width: 280px !important;
-}*/
 .lofi_scroll {
     width: 100% !important;
     height: 40rem !important;
@@ -916,45 +1045,15 @@ form input, form textarea {
 .lofi_home_it {
     margin-top: 75px;
 }
-/*.lofi_homeIT {
-    background-image:url('../Images/lofi_cannoli_homeIT.png') !important;
-    background-size: cover !important;
-    background-repeat: no-repeat !important;
-    overflow: hidden;
-    height: 812px;
-    padding: 0px 0px !important;
-}*/
+
 .lofi_nav_it {
     margin-top: 75px;
 }
-/*.lofi_navIT {
-    background-image:url('../Images/lofi_cannoli_navIT.png') !important;
-    background-size: cover !important;
-    background-repeat: no-repeat !important;
-    overflow: hidden;
-    height: 812px;
-    padding: 0px 0px !important;
-}*/
+
 .lofi_donate_it {
     margin-top: 75px;
 }
-/*.lofi_donateB {
-    background-image:url('../Images/lofi_cannoli_donate.png') !important;
-    background-size: cover !important;
-    background-repeat: no-repeat !important;
-    overflow: hidden;
-    height: 812px;
-    padding: 0px 0px !important;
-    margin-right: 70px;
-}
-.lofi_donateIT {
-    background-image:url('../Images/lofi_cannoli_donateIT.png') !important;
-    background-size: cover !important;
-    background-repeat: no-repeat !important;
-    overflow: hidden;
-    height: 812px;
-    padding: 0px 0px !important;
-}*/
+
 .styleTile {
     margin-top: 75px;
 }
@@ -969,22 +1068,7 @@ form input, form textarea {
 .interactive {
     margin-top: 75px;
 }
-/*.iaDesktop {
-    background-image:url('../Images/cannoli_desktop.png') !important;
-    background-size: contain !important;
-    background-repeat: no-repeat !important;
-    overflow: hidden;
-    height: 500px;
-    padding: 0px 0px !important;
-}
-.iaMobile {
-    background-image:url('../Images/cannoli_mobile.png') !important;
-    background-size: contain !important;
-    background-repeat: no-repeat !important;
-    overflow: hidden;
-    height: 367px;
-    padding: 0px 0px !important;
-}*/
+
 @media (max-width: 767px) {
     .hide {
         display: none !important;
