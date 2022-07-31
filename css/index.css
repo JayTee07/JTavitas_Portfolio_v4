@@ -1147,13 +1147,13 @@ form input, form textarea {
     height: 4px;
     border-radius: 7px;
     position: absolute;
-    left: 20px;
+    left: 0px;
     bottom: -13px;
     background-color: #4CD265;
     transition: width 200ms ease-in;
 }
 .footerLinkedin:hover::after{
-    width:60%;
+    width:100%;
 }
 
 .copyRight {
